@@ -53,7 +53,7 @@ button{
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #737373;
-    width: 224px;
+    text-align: center;
 }
 /* General elements */
 
@@ -151,6 +151,7 @@ button{
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #737373;
+    width: 224px;
 }
 .hero_card:hover{
     background:#00A0C1;
@@ -411,8 +412,8 @@ button{
     height: 56px;
     background: #FFA62B;
     border: 1px solid #E6E6E6;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
@@ -420,8 +421,87 @@ button{
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
-
-
-
-
 /*  Clients section */
+
+/* Contact section */
+.contact{
+    padding: 80px 0 148px;
+    background: #F3F3F3;
+}
+.contact_desc{
+    margin: 10px auto 80px;
+}
+.contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 985px;
+    height: 393px;
+    margin: 0 auto;
+}
+.contact_col{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.contact_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+    height: 333px;
+    background: #FFFFFF;
+    transition: .6s;
+}
+.contact_card svg{
+    fill: #00A0C1;
+    margin-bottom: 15px;
+}
+.contact_email{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.contact_support{
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.contact_btn{
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    width: 160px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+}
+.contact_card:hover{
+    background: #252B42;
+    height: 100%;
+    padding: 80px 0;
+}
+.contact_card:hover  svg{
+    fill: #FFFFFF;
+}
+.contact_card:hover .contact_email{
+    color: #FFFFFF;
+}
+.contact_card:hover .contact_support{
+    color: #FFFFFF;
+}
+.contact_card:hover .contact_btn{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+
+/* Contact section */
