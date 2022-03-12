@@ -360,6 +360,13 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+.container_clients svg{
+    fill: #737373;
+    transition: .3s;
+}
+.container_clients svg:hover{
+    fill:#FFA62B;
+}
 .clients_bottom{
     position: relative;
     height: 77px;
@@ -420,6 +427,10 @@ button{
     text-align: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    transition: .3s;
+}
+.clients_btn:hover{
+    background: #f5ba67;
 }
 /*  Clients section */
 
@@ -451,7 +462,7 @@ button{
     width: 100%;
     height: 333px;
     background: #FFFFFF;
-    transition: .6s;
+    transition: .3s;
 }
 .contact_card svg{
     fill: #00A0C1;
@@ -501,7 +512,110 @@ button{
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
-
-
-
 /* Contact section */
+
+/* Contact-us section */
+.contact-us .container{
+    height:142px ;
+    align-items: center;
+}
+.contact-us_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+.contact-us_desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.contact-us_btn{
+    width: 160px;
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.contact-us_btn:hover{
+    background: #fdc06b;
+}
+/* Contact-us section */
+
+/* Footer section  */
+.footer_top{
+    background: #16697A;
+    height: 272px;
+    padding-top:50px;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer_nav_title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer_nav_link{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.footer_nav_link:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer_top svg{
+    margin-right: 10px;
+}
+.footer_nav .d-flex{
+    margin-bottom: 10px;
+}
+.footer_bottom{
+    height:74px ;
+    background:#FAFAFA;
+    padding: 25px 0;
+}
+.footer_bottom_text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.footer_bottom .fa-brands{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.footer_bottom_icons .fa-facebook-square{
+  color: #335BF5;
+}
+.footer_bottom_icons .fa-instagram{
+    color: #335BF5;;
+}
+.footer_bottom_icons .fa-twitter{
+    color:#21A6DF;
+}
+.footer_bottom_icons .fa-youtube{
+    color: #E42F08;;
+}
+
+
+
+/* Footer section  */
